@@ -1,0 +1,13 @@
+interface:
+  display_name: 论文研究搭档
+  short_description: 围绕文献证据逐步推进选题、贡献定位、实验与写作，保留决策和研究进度
+  default_prompt: 使用 $research-pivot 继续我的论文，读取研究档案，检查最新证据并引导我完成下一步。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
